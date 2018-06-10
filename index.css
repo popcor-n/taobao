@@ -1,0 +1,332 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial;
+	color: #000;
+	font-weight: 200;
+	font-family:"SimSun",serif;
+}
+body{
+	background-color: #f5f5f5;
+}
+.t1 a,.t2 a{
+	color: #6c6c6c;
+}
+a:hover{
+	color: #f22e00;
+}
+li{
+	display: inline-block;
+}
+.toudaohanglan{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #f5f5f5
+}
+.toudaohangneilan{
+	margin:0 auto;
+	width: 1190px;
+	height: 35px;
+	background-color:#f5f5f5;
+}
+.china{
+	margin-left: 5px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+.t1{
+	float: left;
+}
+.t2{
+	float: right;
+}
+
+.t1,.t2{
+	font-size:12px;
+}
+.denglu{
+	font-size:12px;
+	margin-left: 5px;
+	color: #f22e00!important;
+	margin-right: 10px;
+}
+.zhuc{
+	margin-right: 15px;
+	font-size:12px;
+}
+.gang span{
+	color: #ddd;
+}
+.shou{
+	font-size:12px;
+}
+.mytao{
+	margin-left: 50px;
+}
+.t2 li{
+	margin-right: 3px;
+}
+.gang{
+	margin-right:5px!important;
+}
+.xsj{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+	background-image: url('img/xsj.png');
+}
+.guc{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+	background-image: url('img/gwc.png');
+}
+.xx{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+	background-image: url('img/xx.png');
+}
+.daohang{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-size: 100%;
+	background-image: url('img/daohang.png');
+}
+/*导航栏结束*/
+div.sousuokuang{
+	margin-left: -20px;
+	height: 95px;
+	width: 100%;
+	padding: 24px;
+	background-color:#fff;
+}
+div.ssnr{
+	width: 1190px;
+	height: 95px;
+	/*border: 1px solid black;*/
+	margin:0 auto;
+	margin-top: 6px;
+	overflow: hidden;
+}
+.logo{
+	display: inline-block;
+	width: 190px;
+	height: 80px;
+	/*border: 1px solid black;*/
+	vertical-align: top;
+	margin-top: -25px;
+	margin-right: 20px;
+}
+.sousuo{
+	margin-left: 30px;
+	margin-top: 12px;
+	display: inline-block;
+	width: 627px;
+	height: 87px;
+/*	border: 1px solid black;
+*/	vertical-align: top;
+}
+
+.ssnr .logo img{
+	padding: 0;
+	/*margin-top:-25px;*/
+	vertical-align: top;
+	cursor: pointer;
+}
+.sousuoh{
+	width: 627px;
+	height: 62px;
+/*	border: 1px solid black;
+*/}.tab ul li{
+	float: left;
+	width: 36px;
+	height: 22px;
+	text-align:center;
+	line-height: 22px;
+	color: #f40;
+	font-size: 12px;
+	cursor: pointer;
+	margin-right: 4px;
+}
+.tab ul li:hover{
+	background-color: #FFEEE5!important;
+	color: #FF5400;
+}
+.tab{
+	width: 608px;
+	height: 20px;
+/*	border: 1x solid black;
+*/	margin-left: 17px;
+}
+.yangshi{
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+	color:white!important;
+	font-weight: 700;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.kuang{
+	width: 625px;
+	height: 40px;
+	position: relative;
+/*	border:1px solid black;
+*/}
+.btn{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 74px;
+	height: 40px;
+	z-index: 1000;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	text-align: center;
+}
+button{
+	margin-top: 2px;
+	border:none;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+	width: 100%;
+	height: 100%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	color: #fff;
+	cursor:pointer;
+	font-weight: 700;
+	font-size: 18px;
+}
+.input-box{
+	width: 551px;
+	height: 36px;
+	border: 2px solid #ff5000;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right:none; 
+	overflow: hidden;
+}
+.input{
+	width: 472px;
+	height: 36px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+input{
+	width: 472px;
+	height: 24px;
+	line-height: 24px;
+	border: none;
+	outline: 0;
+	text-indent: 10px;
+	margin: 6px 20px;
+	background-color: #fff;
+}
+.sous{
+	display: inline-block;
+	position: absolute;
+	margin-top: 2px;
+	width: 12px;
+	height: 24px;
+	top: 11px;
+	left: 12px;
+	background: url('img/fdj.png')no-repeat;
+	background-size: 120%;
+}
+.camer{
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 22px;
+	top: 11px;
+	right: 90px;
+	background: url('img/xj.png')no-repeat;
+	background-size: 100%;
+}
+
+.sousuob{
+	width: 586px;
+	height: 21px;
+/*	border: 1px solid black;
+*/
+}
+.sousuo ul li a{
+	font-size: 12px;
+	color: #666;
+	margin-right: 2px;
+}
+.youse a{
+	color: #ff5000!important;
+}
+.sousuo ul li:{
+	float: left;
+}
+.sousuo ul li a:hover{
+	color: #ff5000;
+}
+.sousuob ul{
+	width: 620px;
+}
+.more{
+	float: right!important;
+	display: inline-block;
+}
+.codebox{	
+	position: relative;
+	float: right;
+	display: inline-block;
+	width: 76px;
+	height: 90px;
+	border:1px solid #eee;
+	/*vertical-align: top;
+	position: absolute;
+	top: 80px;
+	right: 300px;*/
+	margin:0 auto;
+	margin-left: -10px;
+}
+.sjtb{
+	display: inline-block;
+	color: #f40;
+	text-align: center;
+	line-height: 20px;
+	margin:4px auto 0;
+	width: 78px;
+	font-size: 12px;
+}
+.cha{
+	position: absolute;
+	right: 10px;
+	top:-1px;
+	height: 14px;
+	width: 14px;
+	border:1px solid #eee;
+	left: -16px;
+	line-height: 14px;
+	text-align: center;
+	color: #eee;
+	font-size: 14px;
+	border-right: none;
+}
+.cha:hover{
+	color: #ddd;
+}
+.code{
+	display: inline-block;
+	width: 62px;
+	height: 62px;
+	background:url('img/ewm.png')no-repeat;
+	background-size: 100%;
+	margin-left: 7px;
+	margin-top: -1px;
+}
