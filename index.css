@@ -3,7 +3,6 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	font-family: arial;
 	color: #000;
 	font-weight: 200;
 	font-family:"SimSun",serif;
@@ -537,6 +536,7 @@ h4:hover{
 */
 }
 .you{
+	position: relative;
 	float: right;
 	width: 290px;
 	height: 632px;
@@ -681,6 +681,9 @@ h4:hover{
 .nasha{
 	color: #ff5000!important;
 }
+.nasha,.nashasha{
+	cursor: pointer;
+}
 .fuwu .sel{
 	margin-top: -4px;
 }
@@ -759,12 +762,15 @@ h4:hover{
 	height: 30px;
 	line-height: 30px;
 	padding-left: 14px;
-	color: #3c3c3c;
+	font-weight: 900;
 }
  .app h3 a{
 	position: absolute;
 	right: 10px;
 	color: #3c3c3c;
+}
+.app h3 a:hover{
+	color: #ff5000;
 }
  .app ul{
 	height: 84px;
@@ -789,18 +795,20 @@ h4:hover{
 /*ifont*/
 .baba{
 	display: inline-block;
-	position: fixed;
-	bottom: 398px;
-	right: 50px;
+	position: absolute;
+	bottom: 409px;
+	left: 307px;
 	width: 50px;
 	height: 32px;
 }
 .ifont-box{
 	display: inline-block;
-	position: fixed;
-	bottom: 50px;
-	right: 50px;
+	position:absolute;
+	/*bottom:0px;
+	right: 110px;*/
 	/*border:1px solid black;*/
+	left: 308px;
+	top: 220px;
 	width: 50px;
 	height: 350px; 
 	background-color: #fff;
@@ -816,12 +824,16 @@ h4:hover{
 	width: 50px;
 	height: 32px;
 }
+.ifont li{
+	width: 50px;
+}
 .ifont a{
 	display: inline-block;	
 	width: 	35px;
 	height: 49px;
 	border-bottom:1px solid #eee;
 	text-align:center;	
+	font-size: 14px;
 
 }
 .ifont li .red{
@@ -840,18 +852,22 @@ h4:hover{
 	color: #3c3c3c;
 }
 .ifont .select{
-	color: #fff;
 	width: 	52px;
 	height: 49px;
 	text-align: center;	
 	border-bottom-color: #ff5000;	
 	background: linear-gradient(135deg,#ff971b,#ff5000);
 }
+.ifont .select a{
+	color: #fff;
+	font-weight: 700;
+}
 .ifont li:hover{
-    font-weight: 700;
     background:linear-gradient(135deg,#ff971b,#ff5000);
+    color: #fff;
 }
 .ifont a:hover{
 	    color: #fff;
-	    border-bottom-color: #ff5000;
+	   /* border-bottom-color: #ff5000;*/
+	   font-weight: 700;
 }
